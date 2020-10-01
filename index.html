@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+   <div class="container">
+
+    <div class="row">
+        <div class="col s12">
+            <div class="row">
+                <div class="input-field col s11" >
+                    <input id="usuario" type="text" class="validate">
+                    <label for="usuario">Busca</label>
+                </div>
+                <div class="col s1">
+                    <a class="waves-effect waves-light btn" style="margin-top: 25px;" disabled>Buscar</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="row divMasterUsuarios">
+        <div class="col s8">
+            <h4><span id="spanTotalUsuarios">0</span> usuário(s) encontrado(s)</h4>
+            <div id="divUsuarios"></div>
+        </div>
+        <div class="col s4">
+            <h4>Estatísticas</h4>
+            <p>Sexo Masculino: <span id="spanEstatisticaSexoMasculino" class="bold">0</span></p>
+            <p>Sexo Feminino: <span id="spanEstatisticaSexoFeminino" class="bold">0</span></p>
+            <p>Soma das Idades: <span id="spanSomaDasIdades" class="bold">0</span></p>
+            <p>Media das Idades: <span id="spanMediaDasIdades" class="bold">0</span></p>
+        </div>
+    </div>
+</div>
+
+     <!-- Compiled and minified JavaScript -->
+     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="./js/scripts.js"></script>
+</body>
+</html>
+
+
+
+
+         

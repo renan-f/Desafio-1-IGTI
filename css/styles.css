@@ -1,0 +1,29 @@
+.bold {
+    font-weight: bold;
+}
+
+.body {
+    width: 100vw;
+    height: 100vw;
+}
+
+#divUsuarios {
+    max-height: 75vh;
+    overflow:auto; 
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+img.userImg {
+    border-radius: 50%;
+    width:55px;
+}
+
+.userText {
+    margin-left: 10px;
+}
+
